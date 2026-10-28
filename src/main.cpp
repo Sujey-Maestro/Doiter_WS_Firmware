@@ -410,7 +410,7 @@ void handleClient()
         if (redFlag && door1State == HIGH)
         {
             redFlag = false;
-            (digitalWrite(RED_LED_PIN, LOW));
+            digitalWrite(RED_LED_PIN, LOW);
 
         }
     }
